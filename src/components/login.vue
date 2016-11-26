@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>用户列表</h1>
+        <h1>The Show</h1>
         <hr>
 
         <!-- 用户列表 Begin -->
