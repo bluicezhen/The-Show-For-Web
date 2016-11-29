@@ -2,6 +2,7 @@ import Vue from "vue"
 import VueRouter from "vue-router";
 import ElementUI from "element-ui"
 import "element-ui/lib/theme-default/index.css"
+import "./index.css"
 import App from "./App.vue"
 
 import page_index from "./components/index.vue"

@@ -1,34 +1,34 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
-.cb-tag-h3 {
-    font-size: 1.44em;
+
+.bz-ui-login {
+    background: url("assets/image/login-background.jpeg") no-repeat;
+    background-size: cover;
 }
-.cb-float-right{
-    float: right;
+
+.bz-ui-login-form {
+    margin-top: 24vh;
+    opacity: 0.5;
 }
-.cb-full-with {
+
+.bz-ui-login-title {
+    color: #FFF;
+    font-size: 2.4em;
+    margin-top: 40vh;
+    text-align: center;
+}
+
+.bz-ui-page {
+    height: 100vh;
+}
+
+.bz-margin-bottom-20px {
+    margin-bottom: 20px;
+}
+
+.bz-width-full {
     width: 100%;
-}
-.cb-margin-bottom {
-    margin-bottom: 10px;
-}
-.cb-ui-content {
-    overflow: scroll;
-    height: 92vh;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.cb-ui-body {
-    height: 92vh;
-}
-.cb-ui-navbar {
-    height: 8vh;
-    background-color: #20A0FF;
-    padding-top: 1px;
-}
-.cb-ui-tag {
-    margin: 3px;
 }

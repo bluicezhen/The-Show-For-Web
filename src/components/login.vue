@@ -1,16 +1,31 @@
 <template>
-    <div>
-        <h1>The Show</h1>
-        <hr>
-
-        <!-- 用户列表 Begin -->
-
-        <!-- 用户列表 End -->
+    <div class="bz-ui-login bz-ui-page">
+        <!-- Login Form Begin -->
+        <el-row>
+            <div class="bz-ui-login-form">
+                <el-col :span="8" :offset="14">
+                    <el-input placeholder="Username" class="bz-margin-bottom-20px"></el-input>
+                    <el-input placeholder="Password" class="bz-margin-bottom-20px"></el-input>
+                    <el-row>
+                        <el-col :span="5" :offset="13">
+                            <el-button class="bz-width-full">Register</el-button>
+                        </el-col>
+                        <el-col :span="5" :offset="1">
+                            <el-button class="bz-width-full">Login</el-button>
+                        </el-col>
+                    </el-row>
+                </el-col>
+            </div>
+        </el-row>
+        <!-- Login Form End -->
+        <!-- Title Begin-->
+        <div class="bz-ui-login-title">
+            <h1>The Show</h1>
+        </div>
+        <!-- Title Begin-->
     </div>
 </template>
 
 <script type="text/javascript">
-
-    export default{
-    }
+    export default{}
 </script>
