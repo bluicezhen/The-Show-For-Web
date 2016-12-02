@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-    background-color: floralwhite;
 }
 
 .bz-css-text-align {
@@ -10,19 +9,7 @@ body {
 }
 
 .bz-ui-login-form {
-    margin-top: 24vh;
-    opacity: 0.5;
-}
-
-.bz-ui-login-title {
-    color: #FFF;
-    font-size: 2.4em;
-    margin-top: 40vh;
-    text-align: center;
-}
-
-.bz-ui-page {
-    height: 100vh;
+       margin-top: 24vh;
 }
 
 .bz-margin-bottom-20px {
