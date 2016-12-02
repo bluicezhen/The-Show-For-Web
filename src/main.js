@@ -7,14 +7,16 @@ import App from "./App.vue"
 
 import page_index from "./components/index.vue"
 import page_login from "./components/login.vue"
+import page_register from "./components/register.vue"
 
 Vue.use(ElementUI);
 Vue.use(VueRouter);
 
 const router = new VueRouter({
     routes: [
-        {path: "/", component: page_index},
-        {path: "/login", component: page_login}
+        {name: "page_index", path: "/", component: page_index},
+        {name: "page_login", path: "/login", component: page_login},
+        {name: "page_register", path: "/register", component: page_register}
     ]
 });
 

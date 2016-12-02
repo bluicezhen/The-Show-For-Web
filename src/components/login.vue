@@ -1,5 +1,5 @@
 <template>
-    <div class="bz-ui-login bz-ui-page">
+    <div class="bz-ui-page">
         <!-- Login Form Begin -->
         <el-row>
             <div class="bz-ui-login-form">
@@ -8,10 +8,10 @@
                     <el-input placeholder="密码" class="bz-margin-bottom-20px"></el-input>
                     <el-row>
                         <el-col :span="5" :offset="13">
-                            <el-button class="bz-width-full">注册</el-button>
+                            <el-button class="bz-width-full">Register</el-button>
                         </el-col>
                         <el-col :span="5" :offset="1">
-                            <el-button class="bz-width-full">登录</el-button>
+                            <el-button class="bz-width-full">Login</el-button>
                         </el-col>
                     </el-row>
                 </el-col>
@@ -27,5 +27,5 @@
 </template>
 
 <script type="text/javascript">
-    export default{}
+    export default{};
 </script>
